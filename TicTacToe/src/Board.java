@@ -38,6 +38,16 @@ public class Board
 						}
 				}
 		}
+		public static void fillA1()
+		{
+			spaces[0][0]="X";
+			displayBoard();
+		}
+		public static void fillA2()
+		{
+			spaces[0][1]="X";
+			displayBoard();
+		}
 		
 
 		

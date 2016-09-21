@@ -20,6 +20,15 @@ public class TicTacToeRunner
 			Scanner userInput = new Scanner (System.in);
 			String first = userInput.nextLine();
 			
+			if(first.equals("a1"))
+				{
+					Board.fillA1();
+				}
+			else if(first.equals("a2"))
+				{
+					Board.fillA2();
+				}
+			
 			
 		}
 		public static void playO()
@@ -31,6 +40,15 @@ public class TicTacToeRunner
 			System.out.println("At what location would you like to play? Ex: a1");
 			Scanner userInput = new Scanner (System.in);
 			String first = userInput.nextLine();
+			
+			if(first.equals("a1"))
+				{
+					Board.fillA1();
+				}
+			else if(first.equals("a2"))
+				{
+					Board.fillA2();
+				}
 			
 			
 			
